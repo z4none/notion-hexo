@@ -1,3 +1,5 @@
+const r2 = require('@elog/plugin-img-r2')
+
 module.exports = {
   write: {
     platform: 'notion',
@@ -16,7 +18,7 @@ module.exports = {
       catalog: false,
       frontMatter: {
         enable: true,
-        include: ['categories', 'tags', 'title', 'date', 'updated', 'permalink', 'cover', 'description'],
+        include: ['categories', 'tags', 'title', 'date', 'updated', 'urlname', 'cover', 'description'],
         timeFormat: true,
       },
       formatExt: './format-image.js',
@@ -24,10 +26,14 @@ module.exports = {
   },
   image: {
     enable: true,
-    platform: 'local',
-    local: {
-      outputDir: './source/images',
-      prefixKey: '/images'
+    plugin: r2,
+    r2: {
+      accessKeyId: process.env.R2_ACCESSKEYID,
+      secretAccessKey: process.env.R2_SECRET_ACCESSKEY,
+      bucket: process.env.R2_BUCKET,
+      endpoint: process.env.R2_ENDPOINT,
+      host: process.env.R2_HOST,
+      prefixKey: 'blog'
     }
   },
 }
