@@ -3,7 +3,7 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: 
+logo: ''
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -161,13 +161,11 @@ search:
     index_pages: true
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-comment:
-    # type: disqus
-    # Disqus shortname
-    # shortname: ''
+# comment:
+#     type: giscus
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
-donates:
+# donates:
     # # "Afdian.net" donate button configurations
     # -
     #     type: afdian

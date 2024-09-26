@@ -12,7 +12,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-url: https://z4none.me
+url: https://www.z4none.me
 permalink: :urlname/
 permalink_defaults:
 pretty_urls:
@@ -96,7 +96,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: icarus
+theme: hexo-theme-icarus
+# theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
