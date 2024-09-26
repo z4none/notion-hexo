@@ -18,7 +18,7 @@ module.exports = {
       catalog: false,
       frontMatter: {
         enable: true,
-        include: ['categories', 'tags', 'title', 'date', 'updated', 'urlname', 'cover', 'description'],
+        include: ['categories', 'tags', 'title', 'date', 'updated', 'urlname', 'cover', 'excerpt'],
         timeFormat: true,
       },
       formatExt: './format-image.js',
