@@ -21,8 +21,8 @@ Platforms: GLFW, SDL2, Win32, Glut, OSX.
 有时我们需要在 FFMpeg 应用中使用 GUI，传统的方式是将 FFMpeg 嵌入到 GUI 应用程序中， 有了 Imgui，我们可以在视频画面之上叠加我们的 GUI 界面。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/e0d557bf-02c8-49a5-8928-9bd9a3ea92ec/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043409Z&X-Amz-Expires=3600&X-Amz-Signature=76db49e557a39341c1256d5c69d5464d569c9c10b338c679f807d4bf6ec645ae&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/e0d557bf-02c8-49a5-8928-9bd9a3ea92ec/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=f27546a644611dea9944a81cad3353011b4fdcec5bb084f75577122f5b00993b&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
-![2_%282%29.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/8ea57dce-5287-4801-8406-c0a8b2c9a2dd/2_%282%29.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043409Z&X-Amz-Expires=3600&X-Amz-Signature=5cac459f6bb1300bd549bb8d62232beb03f11e20f81872db2f1a1edea922c6b9&X-Amz-SignedHeaders=host&x-id=GetObject)
+![2_%282%29.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/8ea57dce-5287-4801-8406-c0a8b2c9a2dd/2_%282%29.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=c24f67afa7eac69dc740d9a855ff448166797d5d2f0e3c03e9f9810a9cbc684f&X-Amz-SignedHeaders=host&x-id=GetObject)
 

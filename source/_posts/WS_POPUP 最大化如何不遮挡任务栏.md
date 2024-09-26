@@ -13,7 +13,7 @@ title: WS_POPUP 最大化如何不遮挡任务栏
 在桌面开发时，我们有时会创建样式为 `WS_POPUP` 的窗口，然后自绘标题栏。当窗口最大化时，会覆盖整个屏幕，盖住了任务栏，这通常不是我们想要的效果。
 
 
-![1.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/fa9ac123-8181-41c9-988f-8e4447f29d43/1.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043407Z&X-Amz-Expires=3600&X-Amz-Signature=5bf26ddc5aa664727f18ee36aeba03474ec8d178e5cc30ebfbe825aaaaacb1f3&X-Amz-SignedHeaders=host&x-id=GetObject)
+![1.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/fa9ac123-8181-41c9-988f-8e4447f29d43/1.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=6b63e17805733d7ec108671cb1404eade9f455ffb47e407497675d554d07b373&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 为了避免遮挡任务栏，一般的做法是响应 `WM_GETMINMAXINFO` 消息，限制其最大化后的位置，代码如下：
@@ -46,13 +46,13 @@ void CwspopupmaximizeDlg::OnGetMinMaxInfo(MINMAXINFO* lpMMI)
 写个测试程序、编译、运行，效果完美
 
 
-![2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/722517f9-1137-4ad8-96f9-732488087e6f/2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043407Z&X-Amz-Expires=3600&X-Amz-Signature=f59b9e760fb6db93ce98ef5777930fe38fc4840df309649bf963a272382a92ff&X-Amz-SignedHeaders=host&x-id=GetObject)
+![2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/722517f9-1137-4ad8-96f9-732488087e6f/2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=bfc67dae3bac8a69a8855df977a3a55dc66910cee3397282f539f9d6605ca3f4&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 然而当多屏幕时，把测试程序放到副屏幕上，最大化后窗口不但遮住了任务栏，而且横向也超出屏幕，被截掉一部分。
 
 
-![3.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/0a022e15-0098-43ec-bfa0-cdceb9fc084b/3.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043407Z&X-Amz-Expires=3600&X-Amz-Signature=d37a155b2584a462018afd771983083a59a26549f0c2959945998e0d9c192fb7&X-Amz-SignedHeaders=host&x-id=GetObject)
+![3.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/0a022e15-0098-43ec-bfa0-cdceb9fc084b/3.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=b26ad0e1587e0fff124b586622757a3faad0180c4f6f26a0045bebdb11f76cfd&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 查阅 MSDN 中关于 **`MINMAXINFO`** **结构的描述**

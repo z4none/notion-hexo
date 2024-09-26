@@ -15,7 +15,7 @@ title: 用 Pixi.js 绘制游动的锦鲤
 在 Pixi 中，动画的绘制和 WebGL 一样是通过 requestAnimationFrame 实现的，在每一帧清空整个场景，然后再将对应的精灵绘制到对应位置上即可实现动画效果，首先我们要绘制一条静态的鱼，考虑到后面需要让它动起来，我们将它分为几部分：身体和左右鳍，如图：
 
 
-![20200601180253.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/02eb2bec-b23c-4723-9328-50d6f1d1f87c/20200601180253.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043411Z&X-Amz-Expires=3600&X-Amz-Signature=3b601ca3fff08ab68adbdb73f08701d1f7bfd8dea3a1bedbe8c19ec2d9d02a06&X-Amz-SignedHeaders=host&x-id=GetObject)
+![20200601180253.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/02eb2bec-b23c-4723-9328-50d6f1d1f87c/20200601180253.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050932Z&X-Amz-Expires=3600&X-Amz-Signature=99486ef601f4a831d84c82d91a641fe90d06201c3b30f1cab370ae8812286968&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 [demo 1](https://g.z4none.me/fish/1.html)
@@ -27,7 +27,7 @@ title: 用 Pixi.js 绘制游动的锦鲤
 然后在渲染函数中根据时间（tick）将左右鳍动起来，这里通过改变 yScale 即可实现鱼鳍划动的效果
 
 
-![20200601180443.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/f5213ce4-9d03-4628-b0e1-1bc94f04523d/20200601180443.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043411Z&X-Amz-Expires=3600&X-Amz-Signature=c0b3a48023eac8e7f83038f53cc162a9c4b9da11cccf086f4aaedcc387af1112&X-Amz-SignedHeaders=host&x-id=GetObject)
+![20200601180443.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/f5213ce4-9d03-4628-b0e1-1bc94f04523d/20200601180443.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050932Z&X-Amz-Expires=3600&X-Amz-Signature=a1744d7f6d76bc53d8195f7047e01741d1aefbca6842f56005e965b508c68079&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 [demo 2](https://g.z4none.me/fish/2.html)
@@ -39,7 +39,7 @@ title: 用 Pixi.js 绘制游动的锦鲤
 对应我们的鱼不需要取那么多控制点，这里只取了 4 个控制点，在扭动的同时，鱼鳍的位置也要跟随改变
 
 
-![20200601180809.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/e2723aca-db87-4721-8cd6-43770588309c/20200601180809.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043411Z&X-Amz-Expires=3600&X-Amz-Signature=618cbeefcfbae4e6dc4cb4bf7b0bf487d743e7d96be05831d5e8c8a84a1db33a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![20200601180809.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/e2723aca-db87-4721-8cd6-43770588309c/20200601180809.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050932Z&X-Amz-Expires=3600&X-Amz-Signature=2a0546ba8d3fc1a737507cdfea6fd25a7df45fcdd9f5a4d0920ae898c4174200&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 [demo 3](https://g.z4none.me/fish/3.html)

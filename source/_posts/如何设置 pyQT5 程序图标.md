@@ -23,7 +23,7 @@ title: 如何设置 pyQT5 程序图标
 下面分别进行介绍。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/43c677bf-f0bb-4358-b300-59a95e8033b3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043409Z&X-Amz-Expires=3600&X-Amz-Signature=d3aa24232e6cc5893b2e66fd21bf393b721a84b7be82a10587f90a79eaf02dd9&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/43c677bf-f0bb-4358-b300-59a95e8033b3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=74f932bd067d2068d165d5dfb79ef992559097d0da7e90c8e033b7de00f7ab2d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 窗口图标
@@ -43,7 +43,7 @@ setWindowIcon(QtGui.QIcon(‘icon.png’))
 设置完成后效果如下
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/56ffb263-584a-408b-9006-23cffd3ccf7e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043408Z&X-Amz-Expires=3600&X-Amz-Signature=ef1d99e0077f3866f22e815263caca1be6e434839e67ee40b9ccfa986902b84e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/56ffb263-584a-408b-9006-23cffd3ccf7e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=c2d7e4da78e5682d697dd2abbceab8ecaa808efaceb729a90568b334e90c99a8&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 任务栏图标
@@ -65,7 +65,7 @@ ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 ```
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/96fa958d-a7f7-4919-804a-17923768ecb2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043409Z&X-Amz-Expires=3600&X-Amz-Signature=f7a6d5d41b19e60a08aa07f295f1e51afef0e0c80c17c9d412f4a0ddacd3e354&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/96fa958d-a7f7-4919-804a-17923768ecb2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=cb54616f810e4b45da4be307e05dab85714fd9873d5607bf5f2cd1914173a6d5&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 [https://stackoverflow.com/a/1552105](https://stackoverflow.com/a/1552105)
@@ -89,5 +89,5 @@ pyinstaller.exe --onefile --windowed --icon=cat.ico main.py  -y
 编译后效果如下
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/b0b15290-470e-4769-895b-02ea12a10afb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043409Z&X-Amz-Expires=3600&X-Amz-Signature=456408f722dfdeabefba3dac52ac1690ef25708b46452938f513e32c0a085870&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/b0b15290-470e-4769-895b-02ea12a10afb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=17a94d2be85e890ae619576868878eb9e3e55bbdc2017dd8da77445073b94a92&X-Amz-SignedHeaders=host&x-id=GetObject)
 

@@ -15,7 +15,7 @@ title: 使用 Cloudflare Worker 实现访问统计
 最近在装修博客页面过程中，想在页面上放类似 Github 项目上流行的 Badge，显示页面访问量。由于站点采用的 Nextjs + Vercel 的静态博客方案，一般来说需要使用第三方访问计数服务，比如 [不蒜子](https://busuanzi.ibruce.info/) 。一番搜索，在 v2ex 上了解到了 [https://visitor-badge.glitch.me](https://visitor-badge.glitch.me/) 提供的服务，感觉比较有意思，通过返回 svg badge 图案显示访问数，使用起来也非常简单，直接显示一个指定地址的图片就行。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/a9782874-00a7-4a5e-9fd9-83cdd677a3d2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043407Z&X-Amz-Expires=3600&X-Amz-Signature=cbb5d0960fe6533427b66333b088b370e58140fa58c78317f06bd7b435a8cbf8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/a9782874-00a7-4a5e-9fd9-83cdd677a3d2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=ca3a2f9a143e54fc684375f8546356df42acfaffc9d71d1a0532ebd235fc9e62&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 其实现应该不复杂，有个 kv 数据库保存各页面的访问次数，请求时带上页面 id 从 kv 数据库中取出 +1 即可。刚好 Cloudflare 提供了 Worker 和 Worker KV 数据库，每天都有免费限额，快来白嫖。
@@ -27,7 +27,7 @@ title: 使用 Cloudflare Worker 实现访问统计
 2. 创建一个新的 Worker
 3. 在 Worker 的设置 / 变量 中将刚才的数据库绑定到变量 counter 上
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/efe75dd9-8876-4e80-a13f-5e51ae0604c2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043407Z&X-Amz-Expires=3600&X-Amz-Signature=d8f1e12c23c66479de51528ffe522c93eed2d4e0e76608d554287f63f8b768c5&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/efe75dd9-8876-4e80-a13f-5e51ae0604c2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=b104dfaff9be6b65ba0051fa6ca1b93531461cb4686c9dc13e74777db87cd27f&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 1. 在 Worker 快速编辑页面贴入代码：
 
@@ -149,7 +149,7 @@ async function handleRequest(request) {
 
 1. 此时预览首页，可以看到测试计数的效果，每次刷新计数会 +1
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/93594494-9408-44a1-9bbf-9115bde8571e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043407Z&X-Amz-Expires=3600&X-Amz-Signature=f9b40f2a614dd0d7317609692c4d1f3ed935cc107c60f1293e5dec0a26261cd8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/93594494-9408-44a1-9bbf-9115bde8571e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=c58b9124cf464d79e3d06f5ece9d07ec24d1ac3d51ca85033103320b1a30c639&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 1. 使用方式：
 
