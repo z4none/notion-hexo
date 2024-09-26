@@ -1,7 +1,5 @@
 const r2 = require('@elog/plugin-img-r2')
 
-console.log(process.env)
-
 module.exports = {
   write: {
     platform: 'notion',
