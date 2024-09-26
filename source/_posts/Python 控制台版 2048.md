@@ -12,7 +12,7 @@ title: Python 控制台版 2048
 现在 2048 游戏这么火，我也尝试着用 Python 做了一个(控制台版)，貌似 Python 实现的代码行数都是 100 行左右。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/057a14d3-50fe-4367-8c4d-a2cdb013a095/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050934Z&X-Amz-Expires=3600&X-Amz-Signature=b60b42ed5d9156ab61529047b45bd587ddeaae38484d4ca0b8a9ac4bf5dddc4d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://s.z4none.me/blog/6d81e3861cc65f0742737f9086b33f65.png)
 
 
 由于采用了 cls 命令清屏 和 msvcrt 的按键检测，所以下面代码只能在 Windows 平台上运行

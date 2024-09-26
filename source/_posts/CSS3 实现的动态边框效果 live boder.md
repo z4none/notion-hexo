@@ -49,7 +49,7 @@ title: CSS3 实现的动态边框效果 live boder
 	```
 
 
-	![20190830162731.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/bf313cd9-b164-40d0-b024-fda8da5d0d8a/20190830162731.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050933Z&X-Amz-Expires=3600&X-Amz-Signature=ff5a46ea58cfe625578c33d94dba1be75f4041d539c8553a4b80312e50efdc38&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![20190830162731.gif](https://s.z4none.me/blog/55108bac8de550c13141b5ada2d27f14.gif)
 
 
 	[https://github.com/z4none/jquery-live-border/](https://github.com/z4none/jquery-live-border/)

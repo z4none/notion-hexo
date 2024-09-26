@@ -56,17 +56,17 @@ exit
 保存完毕后可以在右键菜单中即可看到右键的发送中出现了此菜单项 (加号开头可排在最前)
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/81b1c210-0a24-4f1f-8da5-d97aac860bbe/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050931Z&X-Amz-Expires=3600&X-Amz-Signature=5a60960acef02e33206ddbadb392d69b5f9229f9492382c508e14af559949e7b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://s.z4none.me/blog/5fffcc00e3b82c2d645e782ad09cef5e.png)
 
 
 选择此项后会出现提示符要求输入快捷方式的名称（用于搜索的名称），回车确认后快捷方式即可创建成功
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/4bdd2939-6ca2-438e-97e5-2700c97035ec/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050931Z&X-Amz-Expires=3600&X-Amz-Signature=279c0d0a95441b0405de319e8bb4d35c5fb1e9cda283b85e4e6ddb4f2aba4cdf&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://s.z4none.me/blog/be11877843ab3263c85c5588043d6c88.png)
 
 
 确保设置了 uTools 的自定义快捷方式目录，在搜索框中输入该名称即可查到对应的程序。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/d55dadf5-a06c-46b0-8bb1-8c4495bfbb4f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050931Z&X-Amz-Expires=3600&X-Amz-Signature=2f3ced2c74bb1e9143f8fe427847f4ec9c62aea61f2008685f7a51dff7606b1b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://s.z4none.me/blog/916f86cc41a0f601e69d0ef30f710619.png)
 

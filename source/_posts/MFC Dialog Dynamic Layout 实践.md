@@ -18,7 +18,7 @@ title: MFC Dialog Dynamic Layout 实践
 但是如果只设置控件的 Dynamic Layout 属性会出现如下问题，当窗口缩小到小于初始大小时，控件会被挤出显示范围：
 
 
-![20190830163520.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/b337cb89-30d7-4088-ae61-6a6055dfa6cc/20190830163520.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050931Z&X-Amz-Expires=3600&X-Amz-Signature=5ee9a831a98ca06c838b49670b504de63e0258a13a428a29cab1979ce60d4ec1&X-Amz-SignedHeaders=host&x-id=GetObject)
+![20190830163520.gif](https://s.z4none.me/blog/16ed5dcb557ec702ae00e2a242a6ca66.gif)
 
 
 通过跟踪 Dynamic Layout 功能的源代码到 wincore2.cpp 中可以看到 `CMFCDynamicLayout::GetHostWndRect` 的定义有：
@@ -88,7 +88,7 @@ BOOL CMylDlg::OnInitDialog()
 当然以上两个方法可以结合起来， 在 OnInitDialog 中设置窗口最小大小为一个指定值，而不使用资源编辑器中设计的大小。
 
 
-![20190830163956.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/a4d9109e-44b8-4d20-8675-d34155360da7/20190830163956.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050931Z&X-Amz-Expires=3600&X-Amz-Signature=c55cbd6575418f13579af1a9affecddf13ba82321217992f9dcd98cdffd9a1d7&X-Amz-SignedHeaders=host&x-id=GetObject)
+![20190830163956.gif](https://s.z4none.me/blog/23d02ae93f4f1c80a2b7820804331245.gif)
 
 
 ## WTL

@@ -51,5 +51,5 @@ title: 用 Cesium JS 加载建筑 3dTiles
 [https://zouyaoji.top/vue-cesium/#/zh/primitives/cesium-3dtileset](https://zouyaoji.top/vue-cesium/#/zh/primitives/cesium-3dtileset) [https://cesiumjs.org/Cesium/Build/Documentation/Cesium3DTileset.html?classFilter=Cesium3DTileset](https://cesiumjs.org/Cesium/Build/Documentation/Cesium3DTileset.html?classFilter=Cesium3DTileset)
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/1c25912c-9737-4bac-962c-ef14d02789bc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050931Z&X-Amz-Expires=3600&X-Amz-Signature=a436d340daf41ef5f3a62bc9c8f123d727b3d88412e69aee08a200951479873b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://s.z4none.me/blog/35a6d116a3e2b00a0c93c69b42eb4c7b.png)
 

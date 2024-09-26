@@ -21,8 +21,8 @@ Platforms: GLFW, SDL2, Win32, Glut, OSX.
 有时我们需要在 FFMpeg 应用中使用 GUI，传统的方式是将 FFMpeg 嵌入到 GUI 应用程序中， 有了 Imgui，我们可以在视频画面之上叠加我们的 GUI 界面。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/e0d557bf-02c8-49a5-8928-9bd9a3ea92ec/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=f27546a644611dea9944a81cad3353011b4fdcec5bb084f75577122f5b00993b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://s.z4none.me/blog/4cd8d719226a7f8cc875e832ff223e57.png)
 
 
-![2_%282%29.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/8ea57dce-5287-4801-8406-c0a8b2c9a2dd/2_%282%29.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T050930Z&X-Amz-Expires=3600&X-Amz-Signature=c24f67afa7eac69dc740d9a855ff448166797d5d2f0e3c03e9f9810a9cbc684f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![2_%282%29.gif](https://s.z4none.me/blog/93104346773e922a9477c00ba5aa8f26.gif)
 
