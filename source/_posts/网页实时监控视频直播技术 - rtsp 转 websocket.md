@@ -66,5 +66,5 @@ ffplay -i "rtsp://admin:123456@192.168.1.99/h264/ch3/sub/av_stream" -fflags nobu
 基于以上流程的 Demo 示例如下
 
 
-![20200122002551_%281%29.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/cc09ac82-3175-4676-9455-1691f01bc6cd/20200122002551_%281%29.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T042913Z&X-Amz-Expires=3600&X-Amz-Signature=d777c6294b3e2d4ef6fe2388fb2852eabaf28382b5185b8ce8b80693f36e9236&X-Amz-SignedHeaders=host&x-id=GetObject)
+![20200122002551_%281%29.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/cc09ac82-3175-4676-9455-1691f01bc6cd/20200122002551_%281%29.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043409Z&X-Amz-Expires=3600&X-Amz-Signature=27505e9e5855be9ec907c7843d9978b9f40d10cb81302981a73fa0227db6b67e&X-Amz-SignedHeaders=host&x-id=GetObject)
 

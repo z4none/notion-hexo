@@ -37,7 +37,7 @@ std::async(std::launch::async, [](){
 由于我们不关心返回值，所以似乎不需要获取返回的 `std::future`。但是在项目中却出现了 `std::async` 阻塞的情况，经过研究，下面是个最小复现的 demo：
 
 
-![std::async 变成了同步调用](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/4f1cdf55-c03e-49c2-bdc5-986f5d8c5807/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T042912Z&X-Amz-Expires=3600&X-Amz-Signature=6cb96b703bc2b58bfa19e03dd2a8c42a89b79171109bbfe05f92b084f63f124f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![std::async 变成了同步调用](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/4f1cdf55-c03e-49c2-bdc5-986f5d8c5807/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043408Z&X-Amz-Expires=3600&X-Amz-Signature=1d0b850ed028b8345642ffd6332340f93d9f47280ab76c770fe8089548aeaef1&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
  在 cppreference 上对这个问题是这么描述的：

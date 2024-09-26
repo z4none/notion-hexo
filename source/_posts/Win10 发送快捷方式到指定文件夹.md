@@ -56,17 +56,17 @@ exit
 保存完毕后可以在右键菜单中即可看到右键的发送中出现了此菜单项 (加号开头可排在最前)
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/81b1c210-0a24-4f1f-8da5-d97aac860bbe/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T042914Z&X-Amz-Expires=3600&X-Amz-Signature=4dd1997d8439f2dddf8f5fe9bdecfeb665890271dc701948fa0648d1dd2f4803&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/81b1c210-0a24-4f1f-8da5-d97aac860bbe/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043409Z&X-Amz-Expires=3600&X-Amz-Signature=11f2618f59e45a1f634e3aa35184f9d6f6e6bf6c0f9852669674bac6dd734d59&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 选择此项后会出现提示符要求输入快捷方式的名称（用于搜索的名称），回车确认后快捷方式即可创建成功
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/4bdd2939-6ca2-438e-97e5-2700c97035ec/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T042914Z&X-Amz-Expires=3600&X-Amz-Signature=0e977b964c51900afa41189fa6254e6818b234cf92b45da54dc2733c3849e1a4&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/4bdd2939-6ca2-438e-97e5-2700c97035ec/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043409Z&X-Amz-Expires=3600&X-Amz-Signature=1d53f10e0c9d2a1959806f01c9ead898a539799ed15c44d60c85856b8114cfe2&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 确保设置了 uTools 的自定义快捷方式目录，在搜索框中输入该名称即可查到对应的程序。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/d55dadf5-a06c-46b0-8bb1-8c4495bfbb4f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T042914Z&X-Amz-Expires=3600&X-Amz-Signature=2c1657b11a0f1de34dade40c87a1fc97e71a3913776a78a5710c4b8af61f8ffb&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/d55dadf5-a06c-46b0-8bb1-8c4495bfbb4f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043409Z&X-Amz-Expires=3600&X-Amz-Signature=cc92acec0ba58b9d3e774061b72ae79edda560803f46b6731ba47fad17c2d64d&X-Amz-SignedHeaders=host&x-id=GetObject)
 

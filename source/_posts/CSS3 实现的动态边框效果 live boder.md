@@ -49,7 +49,7 @@ title: CSS3 实现的动态边框效果 live boder
 	```
 
 
-	![20190830162731.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/bf313cd9-b164-40d0-b024-fda8da5d0d8a/20190830162731.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T042916Z&X-Amz-Expires=3600&X-Amz-Signature=3030b92e8f6118e2672c2f525c5dcbc40459a857ad765914b76940e4a1c151c8&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![20190830162731.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fbb39313-8950-40fc-9abf-5c7412d9778c/bf313cd9-b164-40d0-b024-fda8da5d0d8a/20190830162731.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T043411Z&X-Amz-Expires=3600&X-Amz-Signature=35a0119f4b8d958ce02a483de3e2747d24963ddf680083e61d5d5cdcc5c92d4d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 	[https://github.com/z4none/jquery-live-border/](https://github.com/z4none/jquery-live-border/)
