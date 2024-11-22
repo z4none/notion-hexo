@@ -38,6 +38,7 @@ jobs:
           R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
           R2_HOST: ${{ secrets.R2_HOST }}
         run: |
+          export TZ='Asia/Shanghai'
           npm run sync
 
       - name: 配置Git用户名邮箱
