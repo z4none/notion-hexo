@@ -1,5 +1,5 @@
 ---
-updated: '2024-11-22 18:00:00'
+updated: '2024-11-22 18:03:00'
 categories: share
 excerpt: MicroBin是一个轻量级的在线文件分享工具，支持文本和文件的跨设备分享，无需登录即可使用。它具备多种安全功能，包括端到端加密、密码保护和自动过期删除，并支持Docker等多种部署方式。
 date: '2024-11-22 08:00:00'
@@ -120,6 +120,3 @@ exit 0                                                                          
 1. 请根据实际需求调整配置参数；
 2. 确保在 Serv00 后台完成端口绑定；
 3. 如需绑定域名，可在 Serv00 后台的 WWW Websites 中设置反向代理
-
-![image.png](https://s.z4none.me/blog/d3ea5aa5d0e21e592f8bdcf14624acc5.png)
-
