@@ -1,5 +1,5 @@
 ---
-updated: '2024-11-22 16:32:00'
+updated: '2024-11-22 08:00:00'
 categories: code
 excerpt: FFmpeg 7.0 在 Windows 7 系统上出现访问错误，原因是其依赖的某些系统函数在 Windows 7 中未实现。解决方案是自行编译所需的 DLL 文件并实现相关功能。
 date: '2024-11-22 08:00:00'
@@ -49,4 +49,13 @@ title: FFmpeg 7 在 Windows 7 上不能运行的问题
 
 
 [https://github.com/z4none/api-ms-win-core-synch-Win7](https://github.com/z4none/api-ms-win-core-synch-Win7)
+
+
+参考资料
+
+
+[https://www.reddit.com/r/ffmpeg/comments/1ejm2e8/ffmpeg_not_running_on_windows_7/](https://www.reddit.com/r/ffmpeg/comments/1ejm2e8/ffmpeg_not_running_on_windows_7/)
+
+
+[https://github.com/GyanD/codexffmpeg/issues/136](https://github.com/GyanD/codexffmpeg/issues/136)
 

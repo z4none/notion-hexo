@@ -63,6 +63,9 @@ ffplay -i "rtsp://admin:123456@192.168.1.99/h264/ch3/sub/av_stream" -fflags nobu
 页面收到 fMP4 数据后将其发送到 SourceBuffer 即可实现解码和播放，需要注意的是有时由于网络抖动导致数据发送不及时，会导致播放进度落后，这是可以通过调整 player 的 currentTime 追赶播放进度。
 
 
+[https://github.com/z4none/rtsp2ws](https://github.com/z4none/rtsp2ws)
+
+
 基于以上流程的 Demo 示例如下
 
 
