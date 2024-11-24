@@ -37,6 +37,7 @@ module.exports = class extends Component {
                 <Footer config={config} helper={helper} />
                 <Scripts site={site} config={config} helper={helper} page={page} />
                 <Search config={config} helper={helper} />
+                <script defer src="https://umami.4ris.xyz/script.js" data-website-id="a2bfd6dc-4153-40ef-b5ca-5f8b63ed2c41"></script>
             </body>
         </html>;
     }
