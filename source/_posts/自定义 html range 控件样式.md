@@ -1,8 +1,8 @@
 ---
-updated: '2022-08-29 08:00:00'
+updated: '2022-08-29 00:00:00'
 categories: code
 excerpt: 当将 HTML input 元素的 type 定义成 range 时，其形式类似 Windows 的 Trackbar，或者俗称 Slider
-date: '2022-08-29 08:00:00'
+date: '2022-08-29 00:00:00'
 tags:
   - Web
 urlname: html-range-input-style

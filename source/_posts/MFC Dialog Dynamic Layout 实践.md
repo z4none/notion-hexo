@@ -1,8 +1,8 @@
 ---
-updated: '2018-10-18 08:00:00'
+updated: '2018-10-18 00:00:00'
 categories: code
 excerpt: "今天接触到一个 MFC Dialog 项目，对于一个 resizeable 的对话框，控件的布局一直是个棘手的问题，由于 MFC 框架较老并且为了保持向前兼容，所以一直没有提供这方面的支持，直到 VisualStudio 2015 在 MFC 中引进了 Dynamic Layout，关于 Dynamic Layout 的说明可以参见 MSDN 的 blog :\_MFC Dynamic Dialog Layout\n。"
-date: '2018-10-18 08:00:00'
+date: '2018-10-18 00:00:00'
 tags:
   - C++
 urlname: mfc-dynamic-layout

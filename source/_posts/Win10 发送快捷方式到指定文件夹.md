@@ -1,8 +1,8 @@
 ---
-updated: '2019-12-02 08:00:00'
+updated: '2019-12-02 00:00:00'
 categories: code
 excerpt: uTools 可以自动搜索开始菜单中安装好的程序，对于绿色软件，可以将其快捷方式保存在一个文件夹中并且在插件偏好设置中，设置 “自定义快捷方式目录”，这个操作在 ALMRun 中已集成到 Windows 的右键菜单的发送项中，在 uTools 中就没有那么方便了，只能靠手动完成。
-date: '2019-12-02 08:00:00'
+date: '2019-12-02 00:00:00'
 tags:
   - Windows
 urlname: win10-send-shortcut-to-directory

@@ -1,5 +1,5 @@
 ---
-updated: '2020-12-17 08:00:00'
+updated: '2020-12-17 00:00:00'
 categories: code
 excerpt: |-
   为了自定义 pyQT5 项目图标, 有三处需要替换，分别为：
@@ -7,7 +7,7 @@ excerpt: |-
   • 任务栏图标
   • 应用程序图标
   下面分别进行介绍。
-date: '2020-12-17 08:00:00'
+date: '2020-12-17 00:00:00'
 tags:
   - C++
 urlname: pyqt-app-icon

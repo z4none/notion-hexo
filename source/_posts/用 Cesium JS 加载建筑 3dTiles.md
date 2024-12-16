@@ -1,8 +1,8 @@
 ---
-updated: '2019-08-29 08:00:00'
+updated: '2019-08-29 00:00:00'
 categories: code
 excerpt: "随着现代浏览器的普及，在 WebGIS 应用中，越来越多的场合需要对城市建筑模型进行展示，目前较流行的解决方案有：\n1. Cesium 的 3DTiles\n2. Mapbox-gl 的 vector source 根据 height 拉伸\n3. ArcGIS\n本文讨论 Cesium 的 3DTiles，什么是 3DTiles\_https://github.com/AnalyticalGraphicsInc/3d-tiles/tree/master/specification"
-date: '2019-08-29 08:00:00'
+date: '2019-08-29 00:00:00'
 tags:
   - Windows
   - C++

@@ -1,12 +1,12 @@
 ---
-updated: '2015-12-13 08:00:00'
+updated: '2015-12-13 00:00:00'
 categories: code
 excerpt: |-
   最近 Google+ 进行了改版，整体效果如何我就不吐槽了.
   有些设计上的细节比较有意思，比如这个后台载入的提示:
   通过开发者工具分析可以看出来，它是通过 CSS3 animation 让一个 div 循环移动实现的
   于是我也来尝试实现了一下这个效果，并封装成 jQuery 插件
-date: '2015-12-13 08:00:00'
+date: '2015-12-13 00:00:00'
 tags:
   - JavaScript
 urlname: css3-live-border

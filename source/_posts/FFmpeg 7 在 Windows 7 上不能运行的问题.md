@@ -1,8 +1,8 @@
 ---
-updated: '2024-11-20 08:00:00'
+updated: '2024-11-20 00:00:00'
 categories: code
 excerpt: FFmpeg 7.0 在 Windows 7 系统上出现访问错误，原因是其依赖的某些系统函数在 Windows 7 中未实现。解决方案是自行编译所需的 DLL 文件并实现相关功能。
-date: '2024-11-20 08:00:00'
+date: '2024-11-20 00:00:00'
 tags:
   - C++
 urlname: ffmpeg-windows7-access-violation

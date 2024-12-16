@@ -1,8 +1,8 @@
 ---
-updated: '2018-01-15 08:00:00'
+updated: '2018-01-15 00:00:00'
 categories: code
 excerpt: eXosip 是 osip 的一个封装，代码简洁易于使用，支持的平台广泛，但编译起来难以一次成功，下面记录一下我今天在 VC2017 环境下的编译过程
-date: '2018-01-15 08:00:00'
+date: '2018-01-15 00:00:00'
 tags:
   - C++
 urlname: vc2018-exosip

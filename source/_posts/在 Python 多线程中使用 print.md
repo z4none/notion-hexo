@@ -1,8 +1,8 @@
 ---
-updated: '2013-07-05 08:00:00'
+updated: '2013-07-05 00:00:00'
 categories: code
 excerpt: 在 Python 多线程中使用 print 有时会将多行内容输出到一行，这是因为 Python 是将要输出的内容和换行符分开打印的。 要避免这个问题，方法之一就是对 print 做线程同步操作
-date: '2013-07-05 08:00:00'
+date: '2013-07-05 00:00:00'
 tags:
   - Python
 urlname: python-multi-thread-print

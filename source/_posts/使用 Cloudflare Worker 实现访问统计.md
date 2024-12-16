@@ -1,8 +1,8 @@
 ---
-updated: '2022-08-13 08:00:00'
+updated: '2022-08-13 00:00:00'
 categories: code
 excerpt: 最近在装修博客页面过程中，想在页面上放类似 Github 项目上流行的 Badge，显示页面访问量。由于站点采用的 Nextjs + Vercel 的静态博客方案，一般来说需要使用第三方访问计数服务
-date: '2022-08-13 08:00:00'
+date: '2022-08-13 00:00:00'
 tags:
   - Web
 urlname: cfworker-visitor-counter

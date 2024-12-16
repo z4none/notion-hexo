@@ -1,8 +1,8 @@
 ---
-updated: '2014-08-08 08:00:00'
+updated: '2014-08-08 00:00:00'
 categories: code
 excerpt: 打开 AcFun 首页自动签到，Chrome + TamperMonkey 测试通过
-date: '2014-08-08 08:00:00'
+date: '2014-08-08 00:00:00'
 tags:
   - JavaScript
 urlname: chrome-acfun

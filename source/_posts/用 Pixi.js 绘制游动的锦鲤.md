@@ -1,8 +1,8 @@
 ---
-updated: '2016-01-18 08:00:00'
+updated: '2016-01-18 00:00:00'
 categories: code
 excerpt: "Pixi.js\n\_是一个 Javascript 的 2D 图像引擎，它采用 WebGL 加速 可实现惊人的绘制效率，并且它对 2D 渲染、动画、特效等进行了封装，十分易于使用，下面我们来一步步用 Pixi 实现游动的鲤鱼的效果。"
-date: '2016-01-18 08:00:00'
+date: '2016-01-18 00:00:00'
 tags:
   - JavaScript
 urlname: pixi-koi

@@ -1,8 +1,8 @@
 ---
-updated: '2017-05-26 08:00:00'
+updated: '2017-05-26 00:00:00'
 categories: code
 excerpt: 'NW.js 是一个基于 Nodejs 和 Chromium 的框架, 可以用 HTML5 和 Javascript 方便的开发桌面应用, 其中 Javascript 中也能使用 Nodejs 的模块, 包括第三方的 C++ 模块.'
-date: '2017-05-26 08:00:00'
+date: '2017-05-26 00:00:00'
 tags:
   - C++
 urlname: nwjs-cxx

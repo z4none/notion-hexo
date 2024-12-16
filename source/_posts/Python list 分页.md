@@ -1,8 +1,8 @@
 ---
-updated: '2014-07-04 08:00:00'
+updated: '2014-07-04 00:00:00'
 categories: code
 excerpt: 想要对 list 分页的同时，还想知道当前页是否有 prev 和 next，类似如下操作：
-date: '2014-07-04 08:00:00'
+date: '2014-07-04 00:00:00'
 tags:
   - Python
 urlname: python-paginator

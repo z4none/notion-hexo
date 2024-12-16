@@ -1,8 +1,8 @@
 ---
-updated: '2015-12-11 08:00:00'
+updated: '2015-12-11 00:00:00'
 categories: code
 excerpt: ''
-date: '2015-12-11 08:00:00'
+date: '2015-12-11 00:00:00'
 tags:
   - Page
 urlname: about

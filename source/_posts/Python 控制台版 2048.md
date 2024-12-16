@@ -1,8 +1,8 @@
 ---
-updated: '2014-05-11 08:00:00'
+updated: '2014-05-11 00:00:00'
 categories: code
 excerpt: 现在 2048 游戏这么火，我也尝试着用 Python 做了一个(控制台版)，貌似 Python 实现的代码行数都是 100 行左右。
-date: '2014-05-11 08:00:00'
+date: '2014-05-11 00:00:00'
 tags:
   - Python
 urlname: python-2048

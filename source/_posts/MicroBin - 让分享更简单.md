@@ -2,7 +2,7 @@
 updated: '2024-11-22 18:03:00'
 categories: share
 excerpt: MicroBin是一个轻量级的在线文件分享工具，支持文本和文件的跨设备分享，无需登录即可使用。它具备多种安全功能，包括端到端加密、密码保护和自动过期删除，并支持Docker等多种部署方式。
-date: '2024-11-22 08:00:00'
+date: '2024-11-22 00:00:00'
 tags:
   - Software
 urlname: microbin-make-share-easy

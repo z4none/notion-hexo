@@ -1,8 +1,8 @@
 ---
-updated: '2018-04-10 08:00:00'
+updated: '2018-04-10 00:00:00'
 categories: code
 excerpt: 在分析 H264 数据时碰到的问题，在此进行记录
-date: '2018-04-10 08:00:00'
+date: '2018-04-10 00:00:00'
 tags:
   - C++
 urlname: bit-field-order

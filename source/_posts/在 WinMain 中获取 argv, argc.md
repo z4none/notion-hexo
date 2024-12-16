@@ -1,8 +1,8 @@
 ---
-updated: '2023-11-20 08:00:00'
+updated: '2023-11-20 00:00:00'
 categories: code
 excerpt: '在 Windows 桌面程序开发中，获取 int argc, char const *argv[] 的方法'
-date: '2023-11-20 08:00:00'
+date: '2023-11-20 00:00:00'
 tags:
   - C++
   - Windows

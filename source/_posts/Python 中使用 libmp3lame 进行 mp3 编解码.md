@@ -1,8 +1,8 @@
 ---
-updated: '2014-07-09 08:00:00'
+updated: '2014-07-09 00:00:00'
 categories: code
 excerpt: 最近在研究 Python 的 mp3 编解码， 可能是 mp3 格式专利问题，这方面可用并且还在维护的 Python 库没发现几个
-date: '2014-07-09 08:00:00'
+date: '2014-07-09 00:00:00'
 tags:
   - Python
 urlname: python-lame

@@ -1,8 +1,8 @@
 ---
-updated: '2016-11-07 08:00:00'
+updated: '2016-11-07 00:00:00'
 categories: code
 excerpt: 在此记录 Ionic2 学习过程中遇到的问题
-date: '2016-11-07 08:00:00'
+date: '2016-11-07 00:00:00'
 tags:
   - Web
 urlname: ionic-study

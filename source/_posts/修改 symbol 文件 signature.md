@@ -1,8 +1,8 @@
 ---
-updated: '2020-12-14 08:00:00'
+updated: '2020-12-14 00:00:00'
 categories: code
 excerpt: 当开发 Windows 桌面应用程序时，我们时常需要对程序的崩溃信息进行分析，Windows 提供了 minidump 机制能将程序崩溃状态保存下来进行分析，前提是需要结合对应版本的 pdb 和 exe 文件。
-date: '2020-12-14 08:00:00'
+date: '2020-12-14 00:00:00'
 tags:
   - C++
 urlname: modify-symbol-file

@@ -1,8 +1,8 @@
 ---
-updated: '2017-03-20 08:00:00'
+updated: '2017-03-20 00:00:00'
 categories: code
 excerpt: WSGI 于 Python 就像 Servlet 于 Java，是介于 WebServer 与 Python 应用框架间的交互接口规范（Web Server Gateway Interface），也就是说 WebServer 和框架都需要对 WSGI 进行实现，好在 WSGI 的定义十分易于实现，所以目前主流的 WebServer 和 Python 都能对其提供支持。
-date: '2017-03-20 08:00:00'
+date: '2017-03-20 00:00:00'
 tags:
   - Python
 urlname: python-wsgi

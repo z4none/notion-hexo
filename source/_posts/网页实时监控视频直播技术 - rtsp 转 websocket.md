@@ -1,8 +1,8 @@
 ---
-updated: '2020-01-21 08:00:00'
+updated: '2020-01-21 00:00:00'
 categories: code
 excerpt: 按照上面的分析，要实现摄像头实时视频的网页直播，可行的技术方案之一是，接入摄像头 RTSP 协议视频流，然后通过 Websocket 推送到页面播放。
-date: '2020-01-21 08:00:00'
+date: '2020-01-21 00:00:00'
 tags:
   - Media
 urlname: stream-live-video-websocket

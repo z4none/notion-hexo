@@ -1,10 +1,10 @@
 ---
-updated: '2013-08-20 08:00:00'
+updated: '2013-08-20 00:00:00'
 categories: code
 excerpt: |-
   最近需要使用 SQLite 保存数据, 使用的是 wxSqlite 的 ASE256 加密版本
   我下载的是 3.7.6.1 修改版, 需要加入到自己的工程中的只有 sqlite3.h 和 sqlite3.lib, 小改一下 CppSQLite 就能对加密功能进行支持.
-date: '2013-08-20 08:00:00'
+date: '2013-08-20 00:00:00'
 tags:
   - Dev
 urlname: sqliterc-in-shell

@@ -1,8 +1,8 @@
 ---
-updated: '2016-05-02 08:00:00'
+updated: '2016-05-02 00:00:00'
 categories: code
 excerpt: 最近 Windows 10 更新后，出现了一个令人困扰的问题，即使在高性能模式，它也会在 2 分钟无操作时自动睡眠
-date: '2016-05-02 08:00:00'
+date: '2016-05-02 00:00:00'
 tags:
   - Windows
 urlname: cancel-win10-sleep

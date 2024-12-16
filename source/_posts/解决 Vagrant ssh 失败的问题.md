@@ -1,8 +1,8 @@
 ---
-updated: '2018-07-09 08:00:00'
+updated: '2018-07-09 00:00:00'
 categories: code
 excerpt: "虚拟机启动后运行\_vagrant ssh\n\_出错, 相关错误信息如下:Permission denied (publickey)."
-date: '2018-07-09 08:00:00'
+date: '2018-07-09 00:00:00'
 tags:
   - Dev
 urlname: vagrant-ssh-failure

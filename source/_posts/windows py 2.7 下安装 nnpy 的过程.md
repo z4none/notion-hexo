@@ -1,8 +1,8 @@
 ---
-updated: '2017-12-21 08:00:00'
+updated: '2017-12-21 00:00:00'
 categories: code
 excerpt: nnpy 是 nanomsg 的 python bindings， 在持续更新中， 作者似乎不太关注 windows 平台， 但是 nanomsg 和 cffi 都是支持 windows 的， 所以 nnpy 也可以安装到 windows 的 python 中， 只是直接安装会报错， 下面记录一下安装的过程。
-date: '2017-12-21 08:00:00'
+date: '2017-12-21 00:00:00'
 tags:
   - C++
   - Python

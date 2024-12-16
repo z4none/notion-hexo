@@ -1,8 +1,8 @@
 ---
-updated: '2023-11-01 08:00:00'
+updated: '2023-11-01 00:00:00'
 categories: code
 excerpt: 'C++`fs::directory_iterator` 异常的处理方法'
-date: '2023-11-01 08:00:00'
+date: '2023-11-01 00:00:00'
 tags:
   - C++
 urlname: cxx_directory_iterator_exception

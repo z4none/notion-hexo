@@ -1,8 +1,8 @@
 ---
-updated: '2020-05-31 08:00:00'
+updated: '2020-05-31 00:00:00'
 categories: code
 excerpt: Dear Imgui 是一个立即模式的 C++ GUI lLibrary，与其他 GUI 框架不同，它将渲染与框架逻辑分离，用户可以根据自己的需要选择渲染方式，官方支持如下
-date: '2020-05-31 08:00:00'
+date: '2020-05-31 00:00:00'
 tags:
   - C++
 urlname: ffmpeg-meet-imgui

@@ -1,8 +1,8 @@
 ---
-updated: '2020-01-14 08:00:00'
+updated: '2020-01-14 00:00:00'
 categories: code
 excerpt: 使用 FFmpeg 播放高分辨率视频时，画面渲染效率是影响性能的主要原因，好在 FFmpeg 提供了各种硬件解码 / 加速的方案，可以极大的降低系统负载。
-date: '2020-01-14 08:00:00'
+date: '2020-01-14 00:00:00'
 tags:
   - C++
 urlname: ffmpeg-dxva2
